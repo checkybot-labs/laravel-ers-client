@@ -19,7 +19,8 @@ class Client
 
     public function __construct(
         ?string $apiToken = null,
-        string $baseUrl = 'https://reporting.flareapp.io/api',
+//        string $baseUrl = 'https://reporting.flareapp.io/api',
+        string $baseUrl = 'https://checkybot.test/api/v1',
         int $timeout = 10
     ) {
         $this->apiToken = $apiToken;
