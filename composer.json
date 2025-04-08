@@ -1,13 +1,11 @@
 {
-    "name": "spatie/flare-client-php",
-    "description": "Send PHP errors to Flare",
+    "name": "emefye/laravel-ers-client",
+    "description": "Send PHP errors to Custom API",
     "keywords": [
-        "spatie",
-        "flare",
         "exception",
         "reporting"
     ],
-    "homepage": "https://github.com/spatie/flare-client-php",
+    "homepage": "https://github.com/emefye/laravel-ers-client",
     "license": "MIT",
     "require": {
         "php": "^8.0",
