@@ -67,7 +67,7 @@ class Client
         return $this;
     }
 
-    public function setCurlSslVerifyPeer( bool $curlSslVerifyPeer): self
+    public function setCurlSslVerifyPeer(bool $curlSslVerifyPeer): self
     {
         $this->curlSslVerifyPeer = $curlSslVerifyPeer;
 
