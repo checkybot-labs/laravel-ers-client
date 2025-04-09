@@ -15,12 +15,15 @@ class Client
 
     protected int $timeout;
 
+    protected bool $curlSslVerifyPeer;
+
     protected $lastRequest = null;
 
     public function __construct(
         ?string $apiToken = null,
         string $baseUrl = 'https://checkybot.com/api/v1',
-        int $timeout = 60
+        int $timeout = 60,
+        bool $curlSslVerifyPeer = true,
     ) {
         $this->apiToken = $apiToken;
 
@@ -35,6 +38,7 @@ class Client
         }
 
         $this->timeout = $timeout;
+        $this->curlSslVerifyPeer = $curlSslVerifyPeer;
     }
 
     public function setApiToken(string $apiToken): self
@@ -52,6 +56,20 @@ class Client
     public function setBaseUrl(string $baseUrl): self
     {
         $this->baseUrl = $baseUrl;
+
+        return $this;
+    }
+
+    public function setCurlTimeout(int $timeout): self
+    {
+        $this->timeout = $timeout;
+
+        return $this;
+    }
+
+    public function setCurlSslVerifyPeer( bool $curlSslVerifyPeer): self
+    {
+        $this->curlSslVerifyPeer = $curlSslVerifyPeer;
 
         return $this;
     }

@@ -100,6 +100,20 @@ class Flare
         return $this;
     }
 
+    public function setCurlTimeout(int $timeout): self
+    {
+        $this->client->setCurlTimeout($timeout);
+
+        return $this;
+    }
+
+    public function setCurlSslVerifyPeer(bool $curlSslVerifyPeer): self
+    {
+        $this->client->setCurlSslVerifyPeer($curlSslVerifyPeer);
+
+        return $this;
+    }
+
     public function setStage(?string $stage): self
     {
         $this->stage = $stage;
