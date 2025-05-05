@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient;
+namespace Emefye\LaravelErsClient;
 
 use Error;
 use ErrorException;
@@ -9,20 +9,20 @@ use Illuminate\Contracts\Container\Container;
 use Illuminate\Pipeline\Pipeline;
 use Spatie\Backtrace\Arguments\ArgumentReducers;
 use Spatie\Backtrace\Arguments\Reducers\ArgumentReducer;
-use Spatie\FlareClient\Concerns\HasContext;
-use Spatie\FlareClient\Context\BaseContextProviderDetector;
-use Spatie\FlareClient\Context\ContextProviderDetector;
-use Spatie\FlareClient\Enums\MessageLevels;
-use Spatie\FlareClient\Enums\OverriddenGrouping;
-use Spatie\FlareClient\FlareMiddleware\AddEnvironmentInformation;
-use Spatie\FlareClient\FlareMiddleware\AddGlows;
-use Spatie\FlareClient\FlareMiddleware\CensorRequestBodyFields;
-use Spatie\FlareClient\FlareMiddleware\FlareMiddleware;
-use Spatie\FlareClient\FlareMiddleware\RemoveRequestIp;
-use Spatie\FlareClient\Glows\Glow;
-use Spatie\FlareClient\Glows\GlowRecorder;
-use Spatie\FlareClient\Http\Client;
-use Spatie\FlareClient\Support\PhpStackFrameArgumentsFixer;
+use Emefye\LaravelErsClient\Concerns\HasContext;
+use Emefye\LaravelErsClient\Context\BaseContextProviderDetector;
+use Emefye\LaravelErsClient\Context\ContextProviderDetector;
+use Emefye\LaravelErsClient\Enums\MessageLevels;
+use Emefye\LaravelErsClient\Enums\OverriddenGrouping;
+use Emefye\LaravelErsClient\FlareMiddleware\AddEnvironmentInformation;
+use Emefye\LaravelErsClient\FlareMiddleware\AddGlows;
+use Emefye\LaravelErsClient\FlareMiddleware\CensorRequestBodyFields;
+use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
+use Emefye\LaravelErsClient\FlareMiddleware\RemoveRequestIp;
+use Emefye\LaravelErsClient\Glows\Glow;
+use Emefye\LaravelErsClient\Glows\GlowRecorder;
+use Emefye\LaravelErsClient\Http\Client;
+use Emefye\LaravelErsClient\Support\PhpStackFrameArgumentsFixer;
 use Throwable;
 
 class Flare
@@ -199,8 +199,8 @@ class Flare
     }
 
     /**
-     * @param \Spatie\FlareClient\Http\Client $client
-     * @param \Spatie\FlareClient\Context\ContextProviderDetector|null $contextDetector
+     * @param \Emefye\LaravelErsClient\Http\Client $client
+     * @param \Emefye\LaravelErsClient\Context\ContextProviderDetector|null $contextDetector
      * @param array<int, FlareMiddleware> $middleware
      */
     public function __construct(

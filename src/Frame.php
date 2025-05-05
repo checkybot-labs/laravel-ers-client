@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient;
+namespace Emefye\LaravelErsClient;
 
 use Spatie\Backtrace\Frame as SpatieFrame;
 

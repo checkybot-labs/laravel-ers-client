@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\FlareClient\Truncation;
+namespace Emefye\LaravelErsClient\Truncation;
 
 class ReportTrimmer
 {
     protected static int $maxPayloadSize = 524288;
 
-    /** @var array<int, class-string<\Spatie\FlareClient\Truncation\TruncationStrategy>> */
+    /** @var array<int, class-string<\Emefye\LaravelErsClient\Truncation\TruncationStrategy>> */
     protected array $strategies = [
         TrimStringsStrategy::class,
         TrimStackFrameArgumentsStrategy::class,

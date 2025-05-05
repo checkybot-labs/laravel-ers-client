@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\FlareClient\Concerns;
+namespace Emefye\LaravelErsClient\Concerns;
 
-use Spatie\FlareClient\Time\SystemTime;
-use Spatie\FlareClient\Time\Time;
+use Emefye\LaravelErsClient\Time\SystemTime;
+use Emefye\LaravelErsClient\Time\Time;
 
 trait UsesTime
 {

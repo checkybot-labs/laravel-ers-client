@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Contracts;
+namespace Emefye\LaravelErsClient\Contracts;
 
 interface ProvidesFlareContext
 {

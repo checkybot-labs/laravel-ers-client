@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Support;
+namespace Emefye\LaravelErsClient\Support;
 
 class PhpStackFrameArgumentsFixer
 {

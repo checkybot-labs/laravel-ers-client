@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Glows;
+namespace Emefye\LaravelErsClient\Glows;
 
 class GlowRecorder
 {

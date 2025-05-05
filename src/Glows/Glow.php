@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\FlareClient\Glows;
+namespace Emefye\LaravelErsClient\Glows;
 
-use Spatie\FlareClient\Concerns\UsesTime;
-use Spatie\FlareClient\Enums\MessageLevels;
+use Emefye\LaravelErsClient\Concerns\UsesTime;
+use Emefye\LaravelErsClient\Enums\MessageLevels;
 
 class Glow
 {

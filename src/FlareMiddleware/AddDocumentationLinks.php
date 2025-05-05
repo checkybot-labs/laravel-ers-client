@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\FlareClient\FlareMiddleware;
+namespace Emefye\LaravelErsClient\FlareMiddleware;
 
 use ArrayObject;
 use Closure;
-use Spatie\FlareClient\Report;
+use Emefye\LaravelErsClient\Report;
 
 class AddDocumentationLinks implements FlareMiddleware
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Enums;
+namespace Emefye\LaravelErsClient\Enums;
 
 class OverriddenGrouping
 {

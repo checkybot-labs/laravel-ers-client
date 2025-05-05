@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Concerns;
+namespace Emefye\LaravelErsClient\Concerns;
 
 trait HasContext
 {

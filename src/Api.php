@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\FlareClient;
+namespace Emefye\LaravelErsClient;
 
 use Exception;
-use Spatie\FlareClient\Http\Client;
-use Spatie\FlareClient\Truncation\ReportTrimmer;
+use Emefye\LaravelErsClient\Http\Client;
+use Emefye\LaravelErsClient\Truncation\ReportTrimmer;
 
 class Api
 {

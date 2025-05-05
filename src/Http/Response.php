@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Http;
+namespace Emefye\LaravelErsClient\Http;
 
 class Response
 {

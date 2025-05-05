@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Context;
+namespace Emefye\LaravelErsClient\Context;
 
 class ConsoleContextProvider implements ContextProvider
 {

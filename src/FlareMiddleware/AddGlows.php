@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\FlareClient\FlareMiddleware;
+namespace Emefye\LaravelErsClient\FlareMiddleware;
 
-namespace Spatie\FlareClient\FlareMiddleware;
+namespace Emefye\LaravelErsClient\FlareMiddleware;
 
 use Closure;
-use Spatie\FlareClient\Glows\GlowRecorder;
-use Spatie\FlareClient\Report;
+use Emefye\LaravelErsClient\Glows\GlowRecorder;
+use Emefye\LaravelErsClient\Report;
 
 class AddGlows implements FlareMiddleware
 {

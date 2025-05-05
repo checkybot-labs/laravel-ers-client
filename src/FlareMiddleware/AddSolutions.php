@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\FlareClient\FlareMiddleware;
+namespace Emefye\LaravelErsClient\FlareMiddleware;
 
 use Closure;
 use Spatie\ErrorSolutions\Contracts\SolutionProviderRepository;
-use Spatie\FlareClient\Report;
+use Emefye\LaravelErsClient\Report;
 use Spatie\Ignition\Contracts\SolutionProviderRepository as IgnitionSolutionProviderRepository;
 
 class AddSolutions implements FlareMiddleware

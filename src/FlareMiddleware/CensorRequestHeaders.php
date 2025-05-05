@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\FlareClient\FlareMiddleware;
+namespace Emefye\LaravelErsClient\FlareMiddleware;
 
-use Spatie\FlareClient\Report;
+use Emefye\LaravelErsClient\Report;
 
 class CensorRequestHeaders implements FlareMiddleware
 {

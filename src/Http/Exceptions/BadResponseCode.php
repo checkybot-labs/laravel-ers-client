@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\FlareClient\Http\Exceptions;
+namespace Emefye\LaravelErsClient\Http\Exceptions;
 
 use Exception;
-use Spatie\FlareClient\Http\Response;
+use Emefye\LaravelErsClient\Http\Response;
 
 class BadResponseCode extends Exception
 {

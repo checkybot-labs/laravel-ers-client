@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Truncation;
+namespace Emefye\LaravelErsClient\Truncation;
 
 interface TruncationStrategy
 {

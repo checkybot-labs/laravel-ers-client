@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\FlareClient\FlareMiddleware;
+namespace Emefye\LaravelErsClient\FlareMiddleware;
 
 use Closure;
-use Spatie\FlareClient\Report;
+use Emefye\LaravelErsClient\Report;
 
 class AddEnvironmentInformation implements FlareMiddleware
 {

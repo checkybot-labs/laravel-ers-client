@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient;
+namespace Emefye\LaravelErsClient;
 
 use Symfony\Component\VarDumper\Cloner\VarCloner;
 use Symfony\Component\VarDumper\Dumper\HtmlDumper;

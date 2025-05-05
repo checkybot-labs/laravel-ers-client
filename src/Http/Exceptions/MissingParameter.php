@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Http\Exceptions;
+namespace Emefye\LaravelErsClient\Http\Exceptions;
 
 use Exception;
 

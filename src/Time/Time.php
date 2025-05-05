@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Time;
+namespace Emefye\LaravelErsClient\Time;
 
 interface Time
 {

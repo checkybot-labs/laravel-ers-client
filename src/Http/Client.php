@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\FlareClient\Http;
+namespace Emefye\LaravelErsClient\Http;
 
-use Spatie\FlareClient\Http\Exceptions\BadResponseCode;
-use Spatie\FlareClient\Http\Exceptions\InvalidData;
-use Spatie\FlareClient\Http\Exceptions\MissingParameter;
-use Spatie\FlareClient\Http\Exceptions\NotFound;
+use Emefye\LaravelErsClient\Http\Exceptions\BadResponseCode;
+use Emefye\LaravelErsClient\Http\Exceptions\InvalidData;
+use Emefye\LaravelErsClient\Http\Exceptions\MissingParameter;
+use Emefye\LaravelErsClient\Http\Exceptions\NotFound;
 
 class Client
 {
