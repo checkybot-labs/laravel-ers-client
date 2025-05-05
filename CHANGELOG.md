@@ -2,6 +2,10 @@
 
 All notable changes to `flare-client-php` will be documented in this file
 
+## v1.0.0 - 2025-05-05
+
+**Full Changelog**: https://github.com/emefye/laravel-ers-client/commits/v1.0.0
+
 ## 1.10.1 - 2025-02-14
 
 ### What's Changed
