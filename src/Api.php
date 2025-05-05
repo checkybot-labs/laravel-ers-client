@@ -2,9 +2,9 @@
 
 namespace Emefye\LaravelErsClient;
 
-use Exception;
 use Emefye\LaravelErsClient\Http\Client;
 use Emefye\LaravelErsClient\Truncation\ReportTrimmer;
+use Exception;
 
 class Api
 {

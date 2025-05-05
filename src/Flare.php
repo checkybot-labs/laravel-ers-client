@@ -2,13 +2,6 @@
 
 namespace Emefye\LaravelErsClient;
 
-use Error;
-use ErrorException;
-use Exception;
-use Illuminate\Contracts\Container\Container;
-use Illuminate\Pipeline\Pipeline;
-use Spatie\Backtrace\Arguments\ArgumentReducers;
-use Spatie\Backtrace\Arguments\Reducers\ArgumentReducer;
 use Emefye\LaravelErsClient\Concerns\HasContext;
 use Emefye\LaravelErsClient\Context\BaseContextProviderDetector;
 use Emefye\LaravelErsClient\Context\ContextProviderDetector;
@@ -23,6 +16,13 @@ use Emefye\LaravelErsClient\Glows\Glow;
 use Emefye\LaravelErsClient\Glows\GlowRecorder;
 use Emefye\LaravelErsClient\Http\Client;
 use Emefye\LaravelErsClient\Support\PhpStackFrameArgumentsFixer;
+use Error;
+use ErrorException;
+use Exception;
+use Illuminate\Contracts\Container\Container;
+use Illuminate\Pipeline\Pipeline;
+use Spatie\Backtrace\Arguments\ArgumentReducers;
+use Spatie\Backtrace\Arguments\Reducers\ArgumentReducer;
 use Throwable;
 
 class Flare

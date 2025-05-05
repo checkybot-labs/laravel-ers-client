@@ -2,18 +2,18 @@
 
 namespace Emefye\LaravelErsClient;
 
-use ErrorException;
-use Spatie\Backtrace\Arguments\ArgumentReducers;
-use Spatie\Backtrace\Arguments\Reducers\ArgumentReducer;
-use Spatie\Backtrace\Backtrace;
-use Spatie\Backtrace\Frame as SpatieFrame;
-use Spatie\ErrorSolutions\Contracts\Solution;
 use Emefye\LaravelErsClient\Concerns\HasContext;
 use Emefye\LaravelErsClient\Concerns\UsesTime;
 use Emefye\LaravelErsClient\Context\ContextProvider;
 use Emefye\LaravelErsClient\Contracts\ProvidesFlareContext;
 use Emefye\LaravelErsClient\Glows\Glow;
 use Emefye\LaravelErsClient\Solutions\ReportSolution;
+use ErrorException;
+use Spatie\Backtrace\Arguments\ArgumentReducers;
+use Spatie\Backtrace\Arguments\Reducers\ArgumentReducer;
+use Spatie\Backtrace\Backtrace;
+use Spatie\Backtrace\Frame as SpatieFrame;
+use Spatie\ErrorSolutions\Contracts\Solution;
 use Spatie\Ignition\Contracts\Solution as IgnitionSolution;
 use Spatie\LaravelFlare\Exceptions\ViewException;
 use Spatie\LaravelIgnition\Exceptions\ViewException as IgnitionViewException;

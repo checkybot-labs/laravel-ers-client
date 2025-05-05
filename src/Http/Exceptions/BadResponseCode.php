@@ -2,8 +2,8 @@
 
 namespace Emefye\LaravelErsClient\Http\Exceptions;
 
-use Exception;
 use Emefye\LaravelErsClient\Http\Response;
+use Exception;
 
 class BadResponseCode extends Exception
 {
