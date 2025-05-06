@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Context;
+namespace CheckybotLabs\LaravelErsClient\Context;
 
 use RuntimeException;
 use Symfony\Component\HttpFoundation\File\UploadedFile;

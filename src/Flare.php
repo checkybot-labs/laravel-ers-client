@@ -1,21 +1,21 @@
 <?php
 
-namespace Emefye\LaravelErsClient;
+namespace CheckybotLabs\LaravelErsClient;
 
-use Emefye\LaravelErsClient\Concerns\HasContext;
-use Emefye\LaravelErsClient\Context\BaseContextProviderDetector;
-use Emefye\LaravelErsClient\Context\ContextProviderDetector;
-use Emefye\LaravelErsClient\Enums\MessageLevels;
-use Emefye\LaravelErsClient\Enums\OverriddenGrouping;
-use Emefye\LaravelErsClient\FlareMiddleware\AddEnvironmentInformation;
-use Emefye\LaravelErsClient\FlareMiddleware\AddGlows;
-use Emefye\LaravelErsClient\FlareMiddleware\CensorRequestBodyFields;
-use Emefye\LaravelErsClient\FlareMiddleware\FlareMiddleware;
-use Emefye\LaravelErsClient\FlareMiddleware\RemoveRequestIp;
-use Emefye\LaravelErsClient\Glows\Glow;
-use Emefye\LaravelErsClient\Glows\GlowRecorder;
-use Emefye\LaravelErsClient\Http\Client;
-use Emefye\LaravelErsClient\Support\PhpStackFrameArgumentsFixer;
+use CheckybotLabs\LaravelErsClient\Concerns\HasContext;
+use CheckybotLabs\LaravelErsClient\Context\BaseContextProviderDetector;
+use CheckybotLabs\LaravelErsClient\Context\ContextProviderDetector;
+use CheckybotLabs\LaravelErsClient\Enums\MessageLevels;
+use CheckybotLabs\LaravelErsClient\Enums\OverriddenGrouping;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\AddEnvironmentInformation;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\AddGlows;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\CensorRequestBodyFields;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\FlareMiddleware;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\RemoveRequestIp;
+use CheckybotLabs\LaravelErsClient\Glows\Glow;
+use CheckybotLabs\LaravelErsClient\Glows\GlowRecorder;
+use CheckybotLabs\LaravelErsClient\Http\Client;
+use CheckybotLabs\LaravelErsClient\Support\PhpStackFrameArgumentsFixer;
 use Error;
 use ErrorException;
 use Exception;
@@ -199,8 +199,8 @@ class Flare
     }
 
     /**
-     * @param \Emefye\LaravelErsClient\Http\Client $client
-     * @param \Emefye\LaravelErsClient\Context\ContextProviderDetector|null $contextDetector
+     * @param \CheckybotLabs\LaravelErsClient\Http\Client $client
+     * @param \CheckybotLabs\LaravelErsClient\Context\ContextProviderDetector|null $contextDetector
      * @param array<int, FlareMiddleware> $middleware
      */
     public function __construct(

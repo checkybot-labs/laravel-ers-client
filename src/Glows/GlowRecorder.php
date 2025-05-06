@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Glows;
+namespace CheckybotLabs\LaravelErsClient\Glows;
 
 class GlowRecorder
 {

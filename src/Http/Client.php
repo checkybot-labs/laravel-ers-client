@@ -1,11 +1,11 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Http;
+namespace CheckybotLabs\LaravelErsClient\Http;
 
-use Emefye\LaravelErsClient\Http\Exceptions\BadResponseCode;
-use Emefye\LaravelErsClient\Http\Exceptions\InvalidData;
-use Emefye\LaravelErsClient\Http\Exceptions\MissingParameter;
-use Emefye\LaravelErsClient\Http\Exceptions\NotFound;
+use CheckybotLabs\LaravelErsClient\Http\Exceptions\BadResponseCode;
+use CheckybotLabs\LaravelErsClient\Http\Exceptions\InvalidData;
+use CheckybotLabs\LaravelErsClient\Http\Exceptions\MissingParameter;
+use CheckybotLabs\LaravelErsClient\Http\Exceptions\NotFound;
 
 class Client
 {

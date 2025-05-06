@@ -1,9 +1,9 @@
 <?php
 
-namespace Emefye\LaravelErsClient\FlareMiddleware;
+namespace CheckybotLabs\LaravelErsClient\FlareMiddleware;
 
 use Closure;
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErsClient\Report;
 
 class AddEnvironmentInformation implements FlareMiddleware
 {

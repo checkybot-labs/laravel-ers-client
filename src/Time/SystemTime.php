@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Time;
+namespace CheckybotLabs\LaravelErsClient\Time;
 
 use DateTimeImmutable;
 

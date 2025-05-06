@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient;
+namespace CheckybotLabs\LaravelErsClient;
 
 use Spatie\Backtrace\Frame as SpatieFrame;
 

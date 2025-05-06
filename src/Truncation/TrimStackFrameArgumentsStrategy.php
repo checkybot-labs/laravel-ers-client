@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Truncation;
+namespace CheckybotLabs\LaravelErsClient\Truncation;
 
 class TrimStackFrameArgumentsStrategy implements TruncationStrategy
 {

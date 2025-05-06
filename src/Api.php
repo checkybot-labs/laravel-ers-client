@@ -1,9 +1,9 @@
 <?php
 
-namespace Emefye\LaravelErsClient;
+namespace CheckybotLabs\LaravelErsClient;
 
-use Emefye\LaravelErsClient\Http\Client;
-use Emefye\LaravelErsClient\Truncation\ReportTrimmer;
+use CheckybotLabs\LaravelErsClient\Http\Client;
+use CheckybotLabs\LaravelErsClient\Truncation\ReportTrimmer;
 use Exception;
 
 class Api

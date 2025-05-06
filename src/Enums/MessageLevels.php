@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Enums;
+namespace CheckybotLabs\LaravelErsClient\Enums;
 
 class MessageLevels
 {

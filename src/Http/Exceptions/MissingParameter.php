@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Http\Exceptions;
+namespace CheckybotLabs\LaravelErsClient\Http\Exceptions;
 
 use Exception;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Emefye\LaravelErsClient\FlareMiddleware;
+namespace CheckybotLabs\LaravelErsClient\FlareMiddleware;
 
 use ArrayObject;
 use Closure;
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErsClient\Report;
 
 class AddDocumentationLinks implements FlareMiddleware
 {

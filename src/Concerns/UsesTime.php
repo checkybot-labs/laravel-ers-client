@@ -1,9 +1,9 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Concerns;
+namespace CheckybotLabs\LaravelErsClient\Concerns;
 
-use Emefye\LaravelErsClient\Time\SystemTime;
-use Emefye\LaravelErsClient\Time\Time;
+use CheckybotLabs\LaravelErsClient\Time\SystemTime;
+use CheckybotLabs\LaravelErsClient\Time\Time;
 
 trait UsesTime
 {

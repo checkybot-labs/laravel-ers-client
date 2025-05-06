@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Http;
+namespace CheckybotLabs\LaravelErsClient\Http;
 
 class Response
 {

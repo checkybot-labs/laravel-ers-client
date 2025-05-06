@@ -1,8 +1,8 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Http\Exceptions;
+namespace CheckybotLabs\LaravelErsClient\Http\Exceptions;
 
-use Emefye\LaravelErsClient\Http\Response;
+use CheckybotLabs\LaravelErsClient\Http\Response;
 use Exception;
 
 class BadResponse extends Exception

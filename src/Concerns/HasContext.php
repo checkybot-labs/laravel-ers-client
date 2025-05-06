@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Concerns;
+namespace CheckybotLabs\LaravelErsClient\Concerns;
 
 trait HasContext
 {

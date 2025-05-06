@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient;
+namespace CheckybotLabs\LaravelErsClient;
 
 use Symfony\Component\VarDumper\Cloner\VarCloner;
 use Symfony\Component\VarDumper\Dumper\HtmlDumper;

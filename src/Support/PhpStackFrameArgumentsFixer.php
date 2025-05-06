@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Support;
+namespace CheckybotLabs\LaravelErsClient\Support;
 
 class PhpStackFrameArgumentsFixer
 {

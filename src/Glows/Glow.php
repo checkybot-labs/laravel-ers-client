@@ -1,9 +1,9 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Glows;
+namespace CheckybotLabs\LaravelErsClient\Glows;
 
-use Emefye\LaravelErsClient\Concerns\UsesTime;
-use Emefye\LaravelErsClient\Enums\MessageLevels;
+use CheckybotLabs\LaravelErsClient\Concerns\UsesTime;
+use CheckybotLabs\LaravelErsClient\Enums\MessageLevels;
 
 class Glow
 {

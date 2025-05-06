@@ -1,12 +1,12 @@
 <?php
 
-namespace Emefye\LaravelErsClient\FlareMiddleware;
+namespace CheckybotLabs\LaravelErsClient\FlareMiddleware;
 
-namespace Emefye\LaravelErsClient\FlareMiddleware;
+namespace CheckybotLabs\LaravelErsClient\FlareMiddleware;
 
 use Closure;
-use Emefye\LaravelErsClient\Glows\GlowRecorder;
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErsClient\Glows\GlowRecorder;
+use CheckybotLabs\LaravelErsClient\Report;
 
 class AddGlows implements FlareMiddleware
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Contracts;
+namespace CheckybotLabs\LaravelErsClient\Contracts;
 
 interface ProvidesFlareContext
 {

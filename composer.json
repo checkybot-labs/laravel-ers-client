@@ -1,11 +1,11 @@
 {
-    "name": "emefye/laravel-ers-client",
+    "name": "checkybot-labs/laravel-ers-client",
     "description": "Send PHP errors to Custom API",
     "keywords": [
         "exception",
         "reporting"
     ],
-    "homepage": "https://github.com/emefye/laravel-ers-client",
+    "homepage": "https://github.com/checkybot-labs/laravel-ers-client",
     "license": "MIT",
     "require": {
         "php": "^8.0",
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Emefye\\LaravelErsClient\\": "src"
+            "CheckybotLabs\\LaravelErsClient\\": "src"
         },
         "files": [
             "src/helpers.php"

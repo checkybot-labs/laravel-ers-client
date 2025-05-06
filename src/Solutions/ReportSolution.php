@@ -1,6 +1,6 @@
 <?php
 
-namespace Emefye\LaravelErsClient\Solutions;
+namespace CheckybotLabs\LaravelErsClient\Solutions;
 
 use Spatie\ErrorSolutions\Contracts\RunnableSolution;
 use Spatie\ErrorSolutions\Contracts\Solution;

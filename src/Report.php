@@ -1,13 +1,13 @@
 <?php
 
-namespace Emefye\LaravelErsClient;
+namespace CheckybotLabs\LaravelErsClient;
 
-use Emefye\LaravelErsClient\Concerns\HasContext;
-use Emefye\LaravelErsClient\Concerns\UsesTime;
-use Emefye\LaravelErsClient\Context\ContextProvider;
-use Emefye\LaravelErsClient\Contracts\ProvidesFlareContext;
-use Emefye\LaravelErsClient\Glows\Glow;
-use Emefye\LaravelErsClient\Solutions\ReportSolution;
+use CheckybotLabs\LaravelErsClient\Concerns\HasContext;
+use CheckybotLabs\LaravelErsClient\Concerns\UsesTime;
+use CheckybotLabs\LaravelErsClient\Context\ContextProvider;
+use CheckybotLabs\LaravelErsClient\Contracts\ProvidesFlareContext;
+use CheckybotLabs\LaravelErsClient\Glows\Glow;
+use CheckybotLabs\LaravelErsClient\Solutions\ReportSolution;
 use ErrorException;
 use Spatie\Backtrace\Arguments\ArgumentReducers;
 use Spatie\Backtrace\Arguments\Reducers\ArgumentReducer;

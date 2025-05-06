@@ -1,8 +1,8 @@
 <?php
 
-namespace Emefye\LaravelErsClient\FlareMiddleware;
+namespace CheckybotLabs\LaravelErsClient\FlareMiddleware;
 
-use Emefye\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErsClient\Report;
 
 class CensorRequestHeaders implements FlareMiddleware
 {
