@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Tests\TestClasses;
+namespace CheckybotLabs\\FlareClient\\Tests\TestClasses;
 
 use Closure;
 use ErrorException;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\FlareClient\Tests\Concerns;
+namespace CheckybotLabs\\FlareClient\\Tests\Concerns;
 
-use Spatie\FlareClient\Tests\TestClasses\ReportDriver;
+use CheckybotLabs\\FlareClient\\Tests\TestClasses\ReportDriver;
 use function Spatie\Snapshots\assertMatchesSnapshot;
 
 trait MatchesReportSnapshots

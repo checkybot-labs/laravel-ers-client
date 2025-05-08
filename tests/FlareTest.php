@@ -4,10 +4,10 @@ use PHPUnit\Framework\Exception;
 use Spatie\FlareClient\Enums\MessageLevels;
 use Spatie\FlareClient\Enums\OverriddenGrouping;
 use Spatie\FlareClient\Flare;
-use Spatie\FlareClient\Tests\Concerns\MatchesReportSnapshots;
-use Spatie\FlareClient\Tests\Mocks\FakeClient;
-use Spatie\FlareClient\Tests\TestClasses\ExceptionWithContext;
-use Spatie\FlareClient\Tests\TestClasses\TraceArguments;
+use CheckybotLabs\\FlareClient\\Tests\Concerns\MatchesReportSnapshots;
+use CheckybotLabs\\FlareClient\\Tests\Mocks\FakeClient;
+use CheckybotLabs\\FlareClient\\Tests\TestClasses\ExceptionWithContext;
+use CheckybotLabs\\FlareClient\\Tests\TestClasses\TraceArguments;
 
 uses(MatchesReportSnapshots::class);
 

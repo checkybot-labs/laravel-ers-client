@@ -3,9 +3,9 @@
 use Spatie\FlareClient\Context\ConsoleContextProvider;
 use Spatie\FlareClient\Glows\Glow;
 use Spatie\FlareClient\Report;
-use Spatie\FlareClient\Tests\Concerns\MatchesReportSnapshots;
-use Spatie\FlareClient\Tests\TestClasses\FakeErrorHandler;
-use Spatie\FlareClient\Tests\TestClasses\FakeTime;
+use CheckybotLabs\\FlareClient\\Tests\Concerns\MatchesReportSnapshots;
+use CheckybotLabs\\FlareClient\\Tests\TestClasses\FakeErrorHandler;
+use CheckybotLabs\\FlareClient\\Tests\TestClasses\FakeTime;
 
 uses(MatchesReportSnapshots::class);
 

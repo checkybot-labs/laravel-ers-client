@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\FlareClient\Tests\TestClasses;
+namespace CheckybotLabs\\FlareClient\\Tests\TestClasses;
 
 use PHPUnit\Framework\Assert as PHPUnit;
 use PHPUnit\Framework\Constraint\ArraySubset;

@@ -1,7 +1,7 @@
 <?php
 
 use Spatie\FlareClient\Flare;
-use Spatie\FlareClient\Tests\TestClasses\TraceArguments;
+use CheckybotLabs\\FlareClient\\Tests\TestClasses\TraceArguments;
 
 it('can enable stack trace arguments on a PHP level', function () {
     ini_set('zend.exception_ignore_args', 1);

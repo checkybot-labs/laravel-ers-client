@@ -1,7 +1,7 @@
 <?php
 
 use Spatie\FlareClient\Context\RequestContextProvider;
-use Spatie\FlareClient\Tests\Concerns\MatchesCodeSnippetSnapshots;
+use CheckybotLabs\\FlareClient\\Tests\Concerns\MatchesCodeSnippetSnapshots;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
 

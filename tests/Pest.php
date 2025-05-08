@@ -2,7 +2,7 @@
 
 use Spatie\FlareClient\Glows\Glow;
 use Spatie\FlareClient\Report;
-use Spatie\FlareClient\Tests\TestClasses\FakeTime;
+use CheckybotLabs\\FlareClient\\Tests\TestClasses\FakeTime;
 
 uses()->beforeEach(function () {
     Report::$fakeTrackingUuid = 'fake-uuid';

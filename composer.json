@@ -34,7 +34,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\FlareClient\\Tests\\": "tests"
+            "CheckybotLabs\\FlareClient\\Tests\\": "tests"
         }
     },
     "scripts": {
