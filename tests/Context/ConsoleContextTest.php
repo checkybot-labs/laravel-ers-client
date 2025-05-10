@@ -1,6 +1,6 @@
 <?php
 
-use Spatie\FlareClient\Context\ConsoleContextProvider;
+use CheckybotLabs\LaravelErsClient\Context\ConsoleContextProvider;
 
 it('can return the console context as an array', function () {
     $arguments = [

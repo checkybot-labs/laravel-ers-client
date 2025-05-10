@@ -34,7 +34,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "CheckybotLabs\\FlareClient\\Tests\\": "tests"
+            "CheckybotLabs\\LaravelErsClient\\Tests\\": "tests"
         }
     },
     "scripts": {

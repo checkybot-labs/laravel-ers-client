@@ -1,8 +1,8 @@
 <?php
 
 
-use Spatie\FlareClient\Truncation\ReportTrimmer;
-use Spatie\FlareClient\Truncation\TrimStringsStrategy;
+use CheckybotLabs\LaravelErsClient\Truncation\ReportTrimmer;
+use CheckybotLabs\LaravelErsClient\Truncation\TrimStringsStrategy;
 
 it('can trim long strings in payload', function () {
     foreach (TrimStringsStrategy::thresholds() as $threshold) {

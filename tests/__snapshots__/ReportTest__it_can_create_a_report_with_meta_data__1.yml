@@ -11,7 +11,7 @@ stacktrace:
     -
         lineNumber: 46
         method: it_can_create_a_report_with_meta_data
-        class: CheckybotLabs\\FlareClient\\Tests\ReportTest
+        class: CheckybotLabs\LaravelErsClient\Tests\ReportTest
         codeSnippet:
             25: '    {'
             26: '        $report = Report::createForThrowable(new Exception(''this is an exception''), new ConsoleContext());'

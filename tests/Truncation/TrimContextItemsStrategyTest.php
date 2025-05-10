@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Str;
 
-use Spatie\FlareClient\Truncation\ReportTrimmer;
-use Spatie\FlareClient\Truncation\TrimContextItemsStrategy;
+use CheckybotLabs\LaravelErsClient\Truncation\ReportTrimmer;
+use CheckybotLabs\LaravelErsClient\Truncation\TrimContextItemsStrategy;
 
 beforeEach(function () {
     ReportTrimmer::setMaxPayloadSize(52428);
