@@ -1,13 +1,13 @@
 <?php
 
 use PHPUnit\Framework\Exception;
-use Spatie\FlareClient\Enums\MessageLevels;
-use Spatie\FlareClient\Enums\OverriddenGrouping;
-use Spatie\FlareClient\Flare;
-use CheckybotLabs\\FlareClient\\Tests\Concerns\MatchesReportSnapshots;
-use CheckybotLabs\\FlareClient\\Tests\Mocks\FakeClient;
-use CheckybotLabs\\FlareClient\\Tests\TestClasses\ExceptionWithContext;
-use CheckybotLabs\\FlareClient\\Tests\TestClasses\TraceArguments;
+use CheckybotLabs\LaravelErsClient\Enums\MessageLevels;
+use CheckybotLabs\LaravelErsClient\Enums\OverriddenGrouping;
+use CheckybotLabs\LaravelErsClient\Flare;
+use CheckybotLabs\LaravelErsClient\Tests\Concerns\MatchesReportSnapshots;
+use CheckybotLabs\LaravelErsClient\Tests\Mocks\FakeClient;
+use CheckybotLabs\LaravelErsClient\Tests\TestClasses\ExceptionWithContext;
+use CheckybotLabs\LaravelErsClient\Tests\TestClasses\TraceArguments;
 
 uses(MatchesReportSnapshots::class);
 

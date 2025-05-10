@@ -1,11 +1,11 @@
 <?php
 
-use Spatie\FlareClient\Context\ConsoleContextProvider;
-use Spatie\FlareClient\Glows\Glow;
-use Spatie\FlareClient\Report;
-use CheckybotLabs\\FlareClient\\Tests\Concerns\MatchesReportSnapshots;
-use CheckybotLabs\\FlareClient\\Tests\TestClasses\FakeErrorHandler;
-use CheckybotLabs\\FlareClient\\Tests\TestClasses\FakeTime;
+use CheckybotLabs\LaravelErsClient\Context\ConsoleContextProvider;
+use CheckybotLabs\LaravelErsClient\Glows\Glow;
+use CheckybotLabs\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErsClient\Tests\Concerns\MatchesReportSnapshots;
+use CheckybotLabs\LaravelErsClient\Tests\TestClasses\FakeErrorHandler;
+use CheckybotLabs\LaravelErsClient\Tests\TestClasses\FakeTime;
 
 uses(MatchesReportSnapshots::class);
 

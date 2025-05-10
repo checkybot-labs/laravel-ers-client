@@ -1,6 +1,6 @@
 <?php
 
-namespace CheckybotLabs\\FlareClient\\Tests\TestClasses;
+namespace CheckybotLabs\LaravelErsClient\Tests\TestClasses;
 
 use PHPUnit\Framework\Assert;
 use Spatie\Snapshots\Drivers\YamlDriver;

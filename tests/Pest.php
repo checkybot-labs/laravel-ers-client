@@ -1,8 +1,8 @@
 <?php
 
-use Spatie\FlareClient\Glows\Glow;
-use Spatie\FlareClient\Report;
-use CheckybotLabs\\FlareClient\\Tests\TestClasses\FakeTime;
+use CheckybotLabs\LaravelErsClient\Glows\Glow;
+use CheckybotLabs\LaravelErsClient\Report;
+use CheckybotLabs\LaravelErsClient\Tests\TestClasses\FakeTime;
 
 uses()->beforeEach(function () {
     Report::$fakeTrackingUuid = 'fake-uuid';

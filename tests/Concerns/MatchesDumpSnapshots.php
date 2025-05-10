@@ -1,8 +1,8 @@
 <?php
 
-namespace CheckybotLabs\\FlareClient\\Tests\Concerns;
+namespace CheckybotLabs\LaravelErsClient\Tests\Concerns;
 
-use CheckybotLabs\\FlareClient\\Tests\TestClasses\DumpDriver;
+use CheckybotLabs\LaravelErsClient\Tests\TestClasses\DumpDriver;
 use function Spatie\Snapshots\assertMatchesSnapshot;
 
 trait MatchesDumpSnapshots

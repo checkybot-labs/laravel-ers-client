@@ -1,8 +1,8 @@
 <?php
 
-use Spatie\FlareClient\Context\ConsoleContextProvider;
-use Spatie\FlareClient\FlareMiddleware\AddEnvironmentInformation;
-use Spatie\FlareClient\Report;
+use CheckybotLabs\LaravelErsClient\Context\ConsoleContextProvider;
+use CheckybotLabs\LaravelErsClient\FlareMiddleware\AddEnvironmentInformation;
+use CheckybotLabs\LaravelErsClient\Report;
 
 it('adds the php version to a report', function () {
     $middleware = new AddEnvironmentInformation();

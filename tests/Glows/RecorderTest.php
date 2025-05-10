@@ -1,7 +1,7 @@
 <?php
 
-use Spatie\FlareClient\Glows\Glow;
-use Spatie\FlareClient\Glows\GlowRecorder;
+use CheckybotLabs\LaravelErsClient\Glows\Glow;
+use CheckybotLabs\LaravelErsClient\Glows\GlowRecorder;
 
 it('is initially empty', function () {
     $recorder = new GlowRecorder();

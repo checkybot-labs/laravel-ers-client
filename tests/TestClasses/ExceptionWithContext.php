@@ -1,8 +1,8 @@
 <?php
 
-namespace CheckybotLabs\\FlareClient\\Tests\TestClasses;
+namespace CheckybotLabs\LaravelErsClient\Tests\TestClasses;
 
-use Spatie\FlareClient\Contracts\ProvidesFlareContext;
+use CheckybotLabs\LaravelErsClient\Contracts\ProvidesFlareContext;
 
 class ExceptionWithContext extends \Exception implements ProvidesFlareContext
 {

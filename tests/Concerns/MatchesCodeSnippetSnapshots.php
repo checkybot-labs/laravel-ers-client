@@ -1,8 +1,8 @@
 <?php
 
-namespace CheckybotLabs\\FlareClient\\Tests\Concerns;
+namespace CheckybotLabs\LaravelErsClient\Tests\Concerns;
 
-use CheckybotLabs\\FlareClient\\Tests\TestClasses\CodeSnippetDriver;
+use CheckybotLabs\LaravelErsClient\Tests\TestClasses\CodeSnippetDriver;
 use function Spatie\Snapshots\assertMatchesSnapshot;
 
 trait MatchesCodeSnippetSnapshots

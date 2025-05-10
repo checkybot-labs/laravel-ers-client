@@ -1,12 +1,12 @@
 <?php
 
-namespace CheckybotLabs\\FlareClient\\Tests\Mocks;
+namespace CheckybotLabs\LaravelErsClient\Tests\Mocks;
 
 use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use Illuminate\Support\Arr;
-use Spatie\FlareClient\Http\Client;
-use Spatie\FlareClient\Http\Response;
-use CheckybotLabs\\FlareClient\\Tests\TestClasses\Assert;
+use CheckybotLabs\LaravelErsClient\Http\Client;
+use CheckybotLabs\LaravelErsClient\Http\Response;
+use CheckybotLabs\LaravelErsClient\Tests\TestClasses\Assert;
 
 class FakeClient extends Client
 {
