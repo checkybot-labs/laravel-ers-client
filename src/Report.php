@@ -15,7 +15,7 @@ use Spatie\Backtrace\Backtrace;
 use Spatie\Backtrace\Frame as SpatieFrame;
 use Spatie\ErrorSolutions\Contracts\Solution;
 use Spatie\Ignition\Contracts\Solution as IgnitionSolution;
-use Spatie\LaravelFlare\Exceptions\ViewException;
+use CheckybotLabs\LaravelErs\Exceptions\ViewException;
 use Spatie\LaravelIgnition\Exceptions\ViewException as IgnitionViewException;
 use Throwable;
 
